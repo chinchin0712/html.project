@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+ 
+  <html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PantStop • Stylish Pants</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; }
+    header, footer { background: #111; color: white; padding: 1rem; text-align: center; }
+    nav a { margin: 0 10px; color: white; text-decoration: none; }
+    section { padding: 2rem; text-align: center; }
+    .products, .collections { display: grid; grid-template-columns: repeat(auto-fit,minmax(200px,1fr)); gap: 1rem; }
+    .card { border: 1px solid #ddd; border-radius: 8px; padding: 1rem; }
+    img { width: 100%; border-radius: 6px; }
+    .btn { display: inline-block; margin-top: .5rem; padding: .5rem 1rem; background: teal; color: white; border-radius: 4px; text-decoration: none; }
+  </style>
+</head>
+<body>
+<header>
+  <h1>PantStop</h1>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#shop">Shop</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+<!-- Home -->
+<section id="home">
+  <h2>Stylish & Comfortable Pants</h2>
+  <p>Find the perfect pants for casual, formal, or active wear.</p>
+  <div class="collections">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1534907330580-7fac2f3d1b0c?auto=format&fit=crop&w=500&q=80" alt="Jeans">
+      <h3>Jeans</h3>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1542293787938-c9e299b88041?auto=format&fit=crop&w=500&q=80" alt="Joggers">
+      <h3>Joggers</h3>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1612901663590-9b6f317a2e4b?auto=format&fit=crop&w=500&q=80" alt="Trousers">
+      <h3>Trousers</h3>
+    </div>
+  </div>
+  <a class="btn" href="#shop">Shop Now</a>
+</section>
+
+<!-- Shop -->
+<section id="shop">
+  <h2>Our Products</h2>
+  <div class="products">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=500&q=80" alt="Jeans">
+      <p>Slim Blue Jeans — ₱1,499</p>
+      <a class="btn" href="#">Add to Cart</a>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1520975919360-4c0deedb3a89?auto=format&fit=crop&w=500&q=80" alt="Joggers">
+      <p>Everyday Joggers — ₱1,099</p>
+      <a class="btn" href="#">Add to Cart</a>
+      
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1602810311675-1bce6b6a3e5b?auto=format&fit=crop&w=500&q=80" alt="Cargo">
+      <p>Utility Cargo — ₱1,599</p>
+      <a class="btn" href="#">Add to Cart</a>
+    </div>
+  </div>
+</section>
+
+<!-- About & Contact -->
+<section id="about">
+  <h2>About Us</h2>
+  <p>PantStop was built to give you stylish, comfortable pants for every occasion.</p>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>Email: support@pantstop.com | Phone: +63 900 123 4567</p>
+  <p>Follow us: Instagram • Facebook • TikTok</p>
+  <form>
+    <input type="text" placeholder="Your Name"><br><br>
+    <input type="email" placeholder="Your Email"><br><br>
+    <textarea placeholder="Your Message"></textarea><br><br>
+    <button class="btn">Send</button>
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2025 PantStop. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
